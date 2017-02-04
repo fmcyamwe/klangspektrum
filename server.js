@@ -50,9 +50,9 @@ app.use(function (req, res, next) {
 mongoose.Promise = global.Promise;
 
 // Build the connection string 
-var dbURI = 'ds137729.mlab.com:37729/heroku_q833f3t4';
-var user = 'heroku_q833f3t4';
-var pwd = '59lkhf7ch9mgtof2147bsj0tnk';
+var dbURI = '...';
+var user = '...';
+var pwd = '...';
 
 // Create the database connection 
 mongoose.connect(`mongodb://${user}:${pwd}@${dbURI}`);
