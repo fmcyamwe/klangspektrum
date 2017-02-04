@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var KlangUser = mongoose.model('KlangUser');
 
 exports.get = function (request, response) {
-    var client_id = '7abe15e91b074e8fa39c91ab00686de9';
+    var client_id = '...';
     var redirect_uri = 'http://www.klangspektrum.digital/api/callback';    // CALLBACK URI
     var stateKey = 'spotify_auth_state';
     var scope = 'user-read-private user-read-email playlist-read-private playlist-read-collaborative user-library-read user-top-read';
