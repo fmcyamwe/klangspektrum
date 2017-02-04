@@ -2,8 +2,8 @@ var querystring = require('querystring');
 var new_request = require('request');
 
 exports.get = function (request, response) {
-    var client_id = '7abe15e91b074e8fa39c91ab00686de9';
-    var client_secret = '26cde9498f994d91ac63768b8505ab9f';   
+    var client_id = '...';
+    var client_secret = '...';   
     var redirect_uri = 'http://www.klangspektrum.digital/api/callback'; // REDIRECT URI
     var stateKey = 'spotify_auth_state';
     var code = request.query.code || null;
